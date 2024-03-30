@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Glorit74/four-card-feature-section-master)
-- Live Site URL: [Add live site URL here](https://glorit74.github.io/four-card-feature-section-master/)
+- Solution URL: [https://github.com/Glorit74/four-card-feature-section-master](https://github.com/Glorit74/four-card-feature-section-master)
+- Live Site URL: [https://glorit74.github.io/four-card-feature-section-master/](https://glorit74.github.io/four-card-feature-section-master/)
 
 ## My process
 
