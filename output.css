@@ -470,16 +470,20 @@ main {
   main {
     width: -moz-fit-content;
     width: fit-content;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
-h1 {
+h1 span {
   margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+h1 {
   text-align: center;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 @media (min-width: 768px) {
@@ -489,38 +493,27 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  margin-bottom: 0.5rem;
   font-size: 1.2rem;
-  font-weight: 200;
-}
-
-@media (min-width: 768px) {
-  h2 {
-    font-size: 2.2rem;
-  }
-}
-
-h3 {
-  font-size: 1rem;
   font-weight: 600;
 }
 
 @media (min-width: 1024px) {
-  h3 {
+  h2 {
     font-size: 1.4rem;
   }
 }
 
 p {
-  font-size: 0.6rem;
-  line-height: 1.1;
+  font-size: 0.8rem;
+  line-height: 1.8;
   --tw-text-opacity: 1;
   color: hsl(229 6% 66% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
   p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 2rem;
   }
 }
@@ -708,12 +701,12 @@ p {
 }
 
 .card {
-  width: 240px;
+  width: 300px;
   border-radius: 0.5rem;
-  border-top-width: 2px;
+  border-top-width: 4px;
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
-  padding: 1.25rem;
+  padding: 1.5rem;
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -721,7 +714,6 @@ p {
 @media (min-width: 1024px) {
   .card {
     width: 350px;
-    border-top-width: 4px;
     padding: 2rem;
   }
 }
@@ -853,16 +845,25 @@ p {
   clear: none;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .ml-auto {
   margin-left: auto;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .box-border {
@@ -964,12 +965,12 @@ p {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-11 {
+  height: 2.75rem;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-\[this-is\\\\\] {
